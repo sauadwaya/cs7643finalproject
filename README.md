@@ -39,15 +39,11 @@ The following files were used for VQA modeling, training, and graphing
 
 ## 4. Robustness Testing and Encoder Training
 
----
-
 ### 4.1 Robustness Module
 
 | File / Folder | Purpose |
 | :--- | :--- |
 | **`robustness/`** | Python module for testing model robustness to different types of image corruptions. |
-
----
 
 ### 4.2 Encoder Training
 
@@ -55,8 +51,6 @@ The following files were used for VQA modeling, training, and graphing
 | :--- | :--- |
 | **`train_encoder_v2.ipynb`** | Baseline encoder training (5 epochs) |
 | **`train_encoder_v3.ipynb`** | Improved encoder training with learning rate scheduler and mixed precision |
-
----
 
 ### 4.3 Robustness Testing
 
