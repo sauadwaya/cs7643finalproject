@@ -1,6 +1,6 @@
 ##  Experiments and Analysis
 
-This repository contains the Jupyter notebooks used for **LoRA** (Low-Rank Adaptation) fine-tuning experiments and subsequent **GradCAM-inspired analysis** on a captioning task.
+This repository contains the Jupyter notebooks used for **LoRA** (Low-Rank Adaptation) fine-tuning experiments, subsequent **GradCAM-inspired analysis** on a captioning task, and **robustness testing** with image corruptions.
 
 ---
 
