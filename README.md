@@ -34,3 +34,34 @@ The following files were used for VQA modeling, training, and graphing
 | **`vqa_model.py`** | The basic VQA model with ViT and BERT |
 | **`vqa_training.py`** | The training and evaluation of the VQA model |
 | **`vqa_dev.ipynb`** | Runs the training and evaluation along with graphing and imaging |
+
+---
+
+## 4. Robustness Testing and Encoder Training
+
+---
+
+### 4.1 Robustness Module
+
+| File / Folder | Purpose |
+| :--- | :--- |
+| **`robustness/`** | Python module for testing model robustness to different types of image corruptions. |
+
+---
+
+### 4.2 Encoder Training
+
+| File Name | Description |
+| :--- | :--- |
+| **`train_encoder_v2.ipynb`** | Baseline encoder training (5 epochs) |
+| **`train_encoder_v3.ipynb`** | Improved encoder training with learning rate scheduler and mixed precision |
+
+---
+
+### 4.3 Robustness Testing
+
+| File Name | Description |
+| :--- | :--- |
+| **`test_robustness_baseline.ipynb`** | Tests the baseline model. |
+| **`test_robustness_encoder_trained_v2.ipynb`** | Tests the encoder trained with v2 settings. |
+| **`test_robustness_encoder_trained_v3.ipynb`** | Tests the encoder trained with v3 settings. |
