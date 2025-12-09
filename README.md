@@ -41,7 +41,7 @@ The following files were used for VQA modeling, training, and graphing
 
 ### 4.1 Robustness Module
 
-| File / Folder | Purpose |
+| Folder | Purpose |
 | :--- | :--- |
 | **`robustness/`** | Python module for testing model robustness to different types of image corruptions. |
 
